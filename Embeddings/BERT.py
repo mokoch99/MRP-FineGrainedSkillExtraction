@@ -97,4 +97,4 @@ for i in range(len(df)):
   df["Vector_Len"][i] = df['embeddings'][i].shape[1]
 
 
-df.to_pickle("embeddings_data.pkl")
+df.to_pickle("bert_embeddings_data.pkl")
