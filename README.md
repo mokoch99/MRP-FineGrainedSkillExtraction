@@ -1,19 +1,3 @@
-# MRP-Softskill-Extraction
+# A Context-aware fine-grained skill extraction system using Natural Language Processing
 
-HR personnel go through a difficult process of selecting candidates for a particular job
-description. In the past, candidate selection is done by using Boolean information retrieval (IR) methods
-which are based on keyword search. A list of key terms related to the job description is crafted by HR
-and the candidate’s resume is matched against these terms. In recent times, HR practice is moving
-towards skill-based recruitment where candidates are ranked according to the number of skills, skill’s
-competence level and skill’s experience. This requires accurate identification of different skills from
-the candidate’s CV.
-Current systems rely on a combination of dictionary/rule-based methods, ontologies and machine
-learning (ML) classifiers. However, most of them do not scale well in real-world use cases. Previous
-works were mainly restricted to hard or/and soft skills extraction. However, a more granular
-classification for skill extraction is required in skill-based recruiting to make informed decisions about
-the candidates.
-The challenge is how to automatically identify and extract these skills from job descriptions and CVs.
-The task is less complex for hard skills which in some cases could be named entities but much more
-challenging for soft skills which may appear in different linguistic forms. The goal of this project work
-is to develop context-aware machine learning systems to identify and classify different kinds of skills
-from job descriptions and resumes.
+The HR recruitment process for vacant positions has grown more challenging, in part due to the increased amount of job applications needing processing. With older systems using basic boolean information retrieval processes, a newer, context-based, approach could accommodate the need for a more skill- and experience-based hiring process that not only puts focus on hard skills but also soft skills. Such a system cannot only extract hard and soft skills, but also their domains and sub-domains would improve effectiveness and reduce costs in an already long hiring process. This project proposes such a context-based and fine-grained classification approach. State-of-the-art word embeddings are used as linguistic features for a set of classical and state-of-the-art machine learning classifiers. These models are trained and validated on a public job-advertisement dataset, which has been labeled using a taxonomy consisting of 1975 of the most common skills found in job advertisements. Results of our evaluations show, that a random classifier using custom FastText embeddings outperforms a BI-LSTM. The results for predicting a small set of unknown skills with the models show that they are robust, to a certain degree. This project also includes the development of a web application\footnote{https://skillum.de}, that allows the user to interact with the models developed in this project online.   
