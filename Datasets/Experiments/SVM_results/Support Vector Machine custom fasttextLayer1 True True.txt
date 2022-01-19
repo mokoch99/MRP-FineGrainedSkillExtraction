@@ -1,0 +1,53 @@
+Dataset : 95% pseudolabels - fasttext - layer1 - cleaned.csv
+Embedding : custom fasttext
+Labels : Layer1
+Contextual : True
+Oversampling : True
+Classifier : Support Vector Machine
+Number of training instances : 409280
+                                         precision    recall  f1-score   support
+
+                         Accountability       1.00      1.00      1.00         3
+                       Active listening       1.00      0.80      0.89        10
+                               Adaptive       0.75      0.72      0.73        50
+                          Argumentation       1.00      0.78      0.88         9
+                               Coaching       0.67      0.67      0.67         6
+                          Communication       0.88      0.90      0.89        40
+                    Conflict management       0.78      0.76      0.77        50
+                             Creativity       0.86      0.88      0.87        43
+                      Critical thinking       0.50      0.50      0.50         6
+                               Decision       0.88      0.88      0.88         8
+                        Decision making       0.93      0.72      0.81        18
+                                 Detail       1.00      0.88      0.93         8
+                 Emotional intelligence       1.00      0.88      0.94        26
+                             Enthusiasm       0.91      0.89      0.90        44
+                                  Ethic       1.00      0.74      0.85        19
+                            Flexibility       1.00      0.60      0.75        10
+                                   Goal       0.81      0.94      0.87        47
+                            Hospitality       1.00      0.83      0.91         6
+                             Initiative       0.83      0.62      0.71         8
+                              Integrity       1.00      0.85      0.92        20
+                             Leadership       0.64      0.71      0.67        49
+                              Mentoring       1.00      0.33      0.50         3
+                            Negotiation       0.87      0.87      0.87        15
+                               Optimism       1.00      0.95      0.97        38
+                             Persuasion       0.88      0.88      0.88         8
+                           Presentation       0.92      0.80      0.86        15
+                        Problem solving       0.42      0.50      0.45        20
+                        Self-confidence       0.92      0.86      0.89        14
+                          Social skills       0.91      0.93      0.92        54
+                     Strategic thinking       0.67      0.67      0.67         6
+                               Teamwork       0.97      0.93      0.95        30
+                        Time management       0.84      0.78      0.81        49
+                                Writing       1.00      0.94      0.97        17
+                business administration       0.82      0.84      0.83       317
+         education, sales and marketing       0.94      0.96      0.95      1351
+engineering, construction and transport       0.74      0.73      0.74       124
+                 health and social care       0.88      0.77      0.82        78
+                 information technology       0.98      0.99      0.98      2514
+                               no skill       0.79      0.77      0.78       792
+                   science and research       0.93      0.72      0.81        18
+
+                               accuracy                           0.91      5943
+                              macro avg       0.87      0.79      0.82      5943
+                           weighted avg       0.91      0.91      0.91      5943

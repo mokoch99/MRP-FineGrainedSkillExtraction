@@ -1,0 +1,53 @@
+Dataset : 95% pseudolabels - bert embeddings - layer1 - cleaned.csv
+Embedding : bert
+Labels : Layer1
+Contextual : True
+Oversampling : False
+Classifier : Random Forest
+Number of training instances : 18482
+                                         precision    recall  f1-score   support
+
+                         Accountability       1.00      0.33      0.50         3
+                       Active listening       0.86      0.67      0.75         9
+                               Adaptive       0.73      0.53      0.62        45
+                          Argumentation       0.50      0.11      0.18         9
+                               Coaching       0.50      0.12      0.20         8
+                          Communication       0.66      0.70      0.68        44
+                    Conflict management       0.54      0.77      0.64        53
+                             Creativity       0.75      0.59      0.66        46
+                      Critical thinking       1.00      0.09      0.17        11
+                               Decision       0.50      0.14      0.22         7
+                        Decision making       0.82      0.53      0.64        17
+                                 Detail       1.00      0.88      0.93         8
+                 Emotional intelligence       0.89      0.71      0.79        24
+                             Enthusiasm       0.81      0.54      0.65        48
+                                  Ethic       1.00      0.29      0.45        17
+                            Flexibility       1.00      0.43      0.60         7
+                                   Goal       0.84      0.50      0.63        42
+                            Hospitality       0.50      0.33      0.40         3
+                             Initiative       1.00      0.40      0.57         5
+                              Integrity       0.30      0.39      0.34        18
+                             Leadership       0.43      0.60      0.50        53
+                              Mentoring       0.00      0.00      0.00         3
+                            Negotiation       1.00      0.20      0.33        10
+                               Optimism       0.94      0.85      0.89        40
+                             Persuasion       1.00      0.67      0.80         3
+                           Presentation       1.00      0.08      0.15        12
+                        Problem solving       0.67      0.26      0.38        23
+                        Self-confidence       1.00      0.57      0.73        14
+                          Social skills       0.55      0.55      0.55        51
+                     Strategic thinking       0.67      0.33      0.44         6
+                               Teamwork       1.00      0.41      0.58        27
+                        Time management       0.41      0.44      0.43        45
+                                Writing       1.00      0.29      0.44         7
+                business administration       0.57      0.48      0.52       246
+         education, sales and marketing       0.78      0.75      0.76       461
+engineering, construction and transport       0.82      0.35      0.49       119
+                 health and social care       0.30      0.09      0.14        34
+                 information technology       0.90      0.99      0.94      2276
+                               no skill       0.69      0.76      0.72       756
+                   science and research       0.00      0.00      0.00        11
+
+                               accuracy                           0.80      4621
+                              macro avg       0.72      0.44      0.51      4621
+                           weighted avg       0.80      0.80      0.79      4621

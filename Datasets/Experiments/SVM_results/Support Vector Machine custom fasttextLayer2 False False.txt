@@ -1,0 +1,69 @@
+Dataset : 95% pseudolabels - fasttext - layer2 - cleaned.csv
+Embedding : custom fasttext
+Labels : Layer2
+Contextual : False
+Oversampling : False
+Classifier : Support Vector Machine
+Number of training instances : 19576
+                                                  precision    recall  f1-score   support
+
+                                  Accountability       1.00      0.86      0.92         7
+                                Active listening       0.50      0.17      0.25         6
+                                        Adaptive       0.80      0.59      0.68        34
+                                   Argumentation       1.00      0.17      0.29         6
+                                        Coaching       0.50      0.20      0.29         5
+                                   Communication       0.85      0.94      0.89        35
+                             Conflict management       0.76      0.83      0.79        46
+                                      Creativity       0.73      0.82      0.77        33
+                               Critical thinking       0.00      0.00      0.00         5
+                                        Decision       1.00      0.75      0.86         8
+                                 Decision making       1.00      0.50      0.67        10
+                                          Detail       1.00      0.50      0.67         2
+                          Emotional intelligence       0.87      0.87      0.87        15
+                                      Enthusiasm       0.84      0.85      0.85        55
+                                           Ethic       0.80      0.50      0.62         8
+                                     Flexibility       1.00      0.43      0.60         7
+                                            Goal       0.78      0.96      0.86        26
+                                     Hospitality       0.00      0.00      0.00         6
+                                      Initiative       0.00      0.00      0.00         5
+                                       Integrity       0.83      0.50      0.62        20
+                                      Leadership       0.47      0.62      0.53        45
+                                     Negotiation       0.86      0.86      0.86         7
+                                        Optimism       0.96      0.87      0.91        30
+                                    Presentation       1.00      0.88      0.94        17
+                                 Problem solving       0.60      0.75      0.67        16
+                                 Self-confidence       1.00      0.70      0.82        10
+                                   Social skills       0.84      0.59      0.70        27
+                              Strategic thinking       1.00      0.17      0.29         6
+                                        Teamwork       0.74      0.94      0.83        18
+                                 Time management       0.79      0.74      0.77        31
+                                         Writing       0.88      0.88      0.88         8
+                                      accounting       0.89      0.93      0.91        95
+                          administration and law       0.77      0.80      0.79        41
+     business intelligence and it systems design       0.92      0.94      0.93        86
+       cardiovascular and respiratory healthcare       0.00      0.00      0.00         6
+                   caregiving and rehabilitation       0.43      0.23      0.30        13
+                    civil engineering and design       0.68      0.56      0.61        27
+         construction, maintenance and transport       0.73      0.71      0.72        34
+                                          design       0.97      0.94      0.95       178
+                    education, languages and art       0.99      0.99      0.99        87
+             energy and environmental management       0.00      0.00      0.00         8
+                                         finance       0.82      0.90      0.86        51
+                       healthcare administration       1.00      0.14      0.25         7
+                                     it security       0.83      0.56      0.67         9
+                          it systems and support       0.94      0.97      0.96       198
+                                       logistics       0.84      0.96      0.90        83
+                               management and hr       0.65      0.82      0.72        72
+                                       marketing       0.77      0.97      0.86       231
+           mechanical and electrical engineering       0.80      0.63      0.71        63
+                                        no skill       0.72      0.70      0.71       762
+physics, math, tomography and structural biology       0.00      0.00      0.00         8
+                               pr and journalism       0.87      0.84      0.85        49
+                                    primary care       0.83      0.50      0.62        10
+                                research methods       0.00      0.00      0.00         1
+                                           sales       0.93      0.91      0.92       162
+                            software engineering       0.99      0.99      0.99      2059
+
+                                        accuracy                           0.88      4894
+                                       macro avg       0.73      0.61      0.64      4894
+                                    weighted avg       0.88      0.88      0.88      4894
